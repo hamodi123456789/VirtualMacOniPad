@@ -60,7 +60,7 @@ First, open Sileo and update to the latest version of Virtual Mac. If the issue 
 - If you see "[Unexpected device state 'DFU' expected 'RestoreOS' (Probably forced into DFU mode externally)](https://github.com/nfzerox/VirtualMacOniPad/issues/11)", update to the latest version of Virtual Mac. If the issue remains, open Sileo > Packages, search for usbmuxd and [temporarily uninstall it](VirtualMac/screenshots/troubleshooting/troubleshooting-usbmuxd.png).
 - If you see "launcher cannot become root: Operation not permitted" or "Internal Virtualization error. The virtual machine failed to start", and have Choicy installed, open Settings > Choicy > Applications > Virtual Mac, and turn off "Disable Tweak Injection". You can also uninstall Choicy.
 - Virtual Mac may conflict with certain other tweaks. If problems remain, remove other tweaks one at a time to narrow down the conflict.
-- Virtual Mac may have overwhelmed your iPad’s RAM, to fix this, choose a lower version of macOS, I recommend Big Sur.
+- Virtual Mac may have overwhelmed your iPad’s RAM, to fix this, choose a lower version of macOS, I recommend Seqouia.
 
 [Open a GitHub issue](https://github.com/nfzerox/VirtualMacOniPad/issues?q=is%3Aissue) when you encounter a crash, bug, or other problem. Include clear reproduction steps, a screenshot or screen recording, and diagnostics file from Virtual Mac's in app Settings > Export Diagnostics.
 
